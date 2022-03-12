@@ -3,8 +3,9 @@
     "tree": {
       "$path": "src",
 
-      "Packages": {
-        "$path": "Packages"
-      }
+      "common": {
+        "Packages": {
+          "$path": "Packages"
+        }
     }
 }

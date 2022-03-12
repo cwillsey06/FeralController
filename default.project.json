@@ -3,57 +3,32 @@
   "tree": {
     "$className": "DataModel",
 
+    "ReplicatedStorage": {
+      "common": {
+        "$path": "src/common",
+        "$ignoreUnknownInstances": true,
+
+        "Packages": {
+          "$path": "Packages"
+        },
+
+        "RequestModel": {
+          "$className": "RemoteEvent"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/Server"
+      }
+    },
+
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "FeralController": {
-          "$path": "src",
-
-          "Packages": {
-            "$path": "Packages"
-          }
+        "Client": {
+          "$path": "src/Client"
         }
-      }
-    },
-
-    "Workspace": {
-      "$properties": {
-        "FilteringEnabled": true
-      },
-      "Baseplate": {
-        "$className": "Part",
-        "$properties": {
-          "Anchored": true,
-          "Color": [
-            0.38823,
-            0.37254,
-            0.38823
-          ],
-          "Locked": true,
-          "Position": [
-            0,
-            -5,
-            0
-          ],
-          "Size": [
-            2048,
-            10,
-            2048
-          ]
-        }
-      }
-    },
-
-    "Lighting": {
-      "$properties": {
-        "Ambient": [
-          0,
-          0,
-          0
-        ],
-        "Brightness": 2,
-        "GlobalShadows": true,
-        "Outlines": false,
-        "Technology": "Future"
       }
     },
     
