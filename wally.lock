@@ -5,7 +5,7 @@ registry = "test"
 [[package]]
 name = "cwillsey/feral-controller"
 version = "0.1.0"
-dependencies = [["contextcontrols", "vocksel/context-controls@1.0.1"], ["promise", "evaera/promise@4.0.0"]]
+dependencies = [["contextcontrols", "vocksel/context-controls@1.0.1"], ["promise", "evaera/promise@4.0.0"], ["trove", "sleitnick/trove@0.3.0"]]
 
 [[package]]
 name = "evaera/promise"
@@ -15,6 +15,11 @@ dependencies = []
 [[package]]
 name = "roblox/testez"
 version = "0.4.1"
+dependencies = []
+
+[[package]]
+name = "sleitnick/trove"
+version = "0.3.0"
 dependencies = []
 
 [[package]]

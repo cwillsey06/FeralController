@@ -13,7 +13,7 @@
         },
 
         "RequestModel": {
-          "$className": "RemoteEvent"
+          "$className": "RemoteFunction"
         }
       }
     },
